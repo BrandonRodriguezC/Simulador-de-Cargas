@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Instructivo</title>
+	<script language=JavaScript> 
+    function inhabilitar(){  return false } 
+		document.oncontextmenu=inhabilitar 
+		</script>
+
+	
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="instructivo.js"></script>
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+		p {
+			font-family: "Montserrat", sans-serif;
+   		font-size: 22px;
+  		margin-top: 30px;
+  		font-weight: 700;
+			text-align: justify;
+    text-justify: inter-word;
+			}
+titlee {
+	display: inline;
+	position: relative;
+	font: 150px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+}
+
+titlee:after {
+	content: "Instructivo";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
+}
+
+button{
+  background:green;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:40px;
+  font-size:18px;
+  padding:5px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+	border-radius: 10px;
+}
+
+button:hover{
+  background:black;
+  color:white;
+	border-radius: 50px;
+}
+
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
